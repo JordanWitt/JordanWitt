@@ -133,7 +133,7 @@ p{
     font-variant-caps: all-petite-caps;
     letter-spacing: 5px;
     font-weight: bold;
-    margin: 10px 0 40px 0;
+    margin: 10px 0 10px 0;
 }
 img{
     width: 100%;
@@ -161,5 +161,41 @@ button.btn:hover{
     box-shadow: 0  2px 30px #CCFFCC;
 }
 .buyer{
-    width: ;
+    background-color: #CCFFCC;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    color: #003333;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 40px;
+    align-items: center;
+    box-shadow: 2px 5px 10px #003333;
+    margin-bottom: 15px;
+}
+.seller{
+    background-color: #CCFFCC;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    color: #003333;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 40px;
+    align-items: center;
+    box-shadow: 2px 5px 10px #003333;
+    margin-bottom: 15px;
+}
+.neighbor{
+    background-color: #CCFFCC;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    color: #003333;
+    font-weight: bold;
+    letter-spacing: 5px;
+    height: 40px;
+    align-items: center;
+    box-shadow: 2px 5px 10px #003333;
+    margin-bottom: 35px;
 }
