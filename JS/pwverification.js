@@ -15,10 +15,10 @@ myInput.onblur = function (){
 myInput.onkeyup = function () {
     //validation for letters
     let lowerCase = /[a-z]/g
-    if(myInput.value.match(lowerCase)){
+    if(myInput.value.match(lowerCase)) {
         letter.classList.remove("invalid");
         letter.classList.add("valid");
-    }else {
+    } else {
         letter.classList.remove("valid");
         letter.classList.add("invalid");
     }
@@ -26,12 +26,12 @@ myInput.onkeyup = function () {
 
     //validate capital letters
     let upperCase = /[A-Z]/g
-    if(myInput.value.match(upperCase)){
-        letter.classList.remove("invalid");
-        letter.classList.add("valid");
-    }else {
-        letter.classList.remove("valid");
-        letter.classList.add("invalid");
+    if(myInput.value.match(upperCase)) {
+        capital.classList.remove("invalid");
+        capital.classList.add("valid");
+    } else {
+        capital.classList.remove("valid");
+        capital.classList.add("invalid");
     }
 
     //validate numbers
