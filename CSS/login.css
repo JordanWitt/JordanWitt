@@ -114,7 +114,6 @@ img{
     justify-content: center;
     z-index: -1;
     border-radius: 50px;
-    opacity: 50%;
 }
 button.btn{
     background-color: #CCCC66;
@@ -127,7 +126,7 @@ button.btn{
     box-shadow: 2px 5px 10px #003333;
 }
 button.btn:hover{
-    color: #CCCC66;
+    color: #CCFFCC;
     background-color: #FF6699;
     box-shadow: 0  2px 30px #CCFFCC;
 }
