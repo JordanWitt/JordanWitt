@@ -35,4 +35,12 @@ myInput.onkeyup = function () {
     }
 
     //validate numbers
+    let numbers = /[0-9]/g;
+    if(myInput.value.match(numbers)) {
+        number.classList.remove("invalid");
+        number.classList.add("valid");
+    } else {
+        number.classList.remove("valid");
+        number.classList.add("invalid");
+    }
 }
