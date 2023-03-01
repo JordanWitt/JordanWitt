@@ -43,4 +43,13 @@ myInput.onkeyup = function () {
         number.classList.remove("valid");
         number.classList.add("invalid");
     }
+
+    // Validate length
+    if(myInput.value.length >= 8) {
+        length.classList.remove("invalid");
+        length.classList.add("valid");
+    } else {
+        length.classList.remove("valid");
+        length.classList.add("invalid");
+    }
 }
