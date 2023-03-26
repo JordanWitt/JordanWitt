@@ -26,12 +26,16 @@ moon.addEventListener("click", function () {
         html.classList.add(("dark-mode"));
         cursor.classList.add("dark-cursor");
         logoTxt.classList.add("logo-text-dark");
+        contactBtn.classList.add("contact-dark", "contact-dark:hover");
+        loginBtn.classList.add("login-dark", "login-dark:hover");
+
     } else {
         body.classList.remove("dark-mode");
         moon.classList.remove("dark-mode-moon");
         html.classList.remove(("dark-mode"));
         cursor.classList.remove("dark-cursor");
         logoTxt.classList.remove("logo-text-dark");
-
+        contactBtn.classList.remove("contact-dark", "contact-dark:hover");
+        loginBtn.classList.remove("login-dark", "login-dark:hover");
     }
 })

@@ -34,8 +34,10 @@ html, body{
     font-weight: bold;
     margin-top: 10px;
     color: #FF6699;
+    letter-spacing: 5px;
 }
 .contact{
+    margin-top: 10px;
     background-color: #CCFFCC;
     border-radius: 30px;
     color: #003333;
@@ -43,7 +45,6 @@ html, body{
     width: 150px;
     height: 40px;
     letter-spacing: 5px;
-    box-shadow: 2px 5px 10px #003333;
     cursor: none;
 }
 .contact:hover{
@@ -53,6 +54,7 @@ html, body{
     cursor: none;
 }
 .login{
+    margin-top: 10px;
     background-color: #CCFFCC;
     border-radius: 30px;
     color: #003333;
@@ -60,7 +62,6 @@ html, body{
     width: 150px;
     height: 40px;
     letter-spacing: 5px;
-    box-shadow: 2px 5px 10px #003333;
     cursor: none;
 }
 .login:hover{
@@ -96,4 +97,40 @@ html, body{
     font-weight: bold;
     margin-top: 10px;
     color: #003333;
+}
+.contact-dark{
+    margin-top: 10px;
+    background-color: #003333;
+    border-radius: 30px;
+    color: #CCCC66;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 5px;
+    box-shadow: 2px 5px 10px #003333;
+    cursor: none;
+}
+.contact-dark:hover{
+    color: #FF6699;
+    background-color: #CCFFCC;
+    box-shadow: 0  2px 30px #FF6699;
+    cursor: none;
+}
+.login-dark{
+    margin-top: 10px;
+    background-color: #003333;
+    border-radius: 30px;
+    color: #CCCC66;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 5px;
+    box-shadow: 2px 5px 10px #003333;
+    cursor: none;
+}
+.login-dark:hover{
+    color: #FF6699;
+    background-color: #CCFFCC;
+    box-shadow: 0  2px 30px #FF6699;
+    cursor: none;
 }
