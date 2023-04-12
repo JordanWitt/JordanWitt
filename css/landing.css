@@ -71,6 +71,33 @@ html, body{
     box-shadow: 0  2px 30px #CCFFCC;
     cursor: none;
 }
+.signup{
+    margin-top: 10px;
+    background-color: #FF6699;
+    border-radius: 30px;
+    color: #003333;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 5px;
+    cursor: none;
+}
+.signup:hover{
+    color: #003333;
+    background-color: #CCFFCC;
+    box-shadow: 0  2px 30px #CCFFCC;
+    cursor: none;
+}
+.slogan{
+    color: #CCFFCC;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-variant: unicase;
+    text-transform: uppercase;
+    font-family: monospace;
+}
 
 /*DARK MODE(LIGHT MODE) CSS*/
 .dark-mode-moon{
