@@ -90,13 +90,20 @@ html, body{
 }
 .slogan{
     color: #CCFFCC;
-    padding: 20px;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    font-variant: unicase;
     text-transform: uppercase;
     font-family: monospace;
+    padding-top: 120px;
+}
+p{
+    font-family: Helvetica, serif;
+}
+.section-two{
+    padding-top: 130px;
+    background-color: #CCFFCC;
+    width: 100%;
 }
 
 /*DARK MODE(LIGHT MODE) CSS*/
@@ -161,4 +168,25 @@ html, body{
     background-color: #CCFFCC;
     box-shadow: 0  2px 30px #FF6699;
     cursor: none;
+}
+.signup-dark{
+    margin-top: 10px;
+    background-color: #003333;
+    border-radius: 30px;
+    color: #CCCC66;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 5px;
+    box-shadow: 2px 5px 10px #003333;
+    cursor: none;
+}
+.signup-dark:hover{
+    color: #FF6699;
+    background-color: #CCFFCC;
+    box-shadow: 0  2px 30px #FF6699;
+    cursor: none;
+}
+.slogan-dark{
+    color: #003333;
 }
