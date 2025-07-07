@@ -30,7 +30,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 - :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 
-- :seedling: Keen eye for front-end but focusing on Java.
+- :seedling: Keen eye for front-end, Graphic Design and UI/UX.
 
 - :zap: In my free time I play too much League of Legends and occassionally workout.
 
