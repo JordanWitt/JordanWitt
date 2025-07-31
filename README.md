@@ -34,7 +34,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
 
 - :zap: In my free time I play too much League of Legends and occassionally workout.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-pink?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordan-witt-3638b3203/)
+- :mailbox:How to reach me: <br> [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-pink?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jordan-witt-3638b3203/)
 </div>
 <hr>
 <div id="tools" align="center">
